@@ -44,9 +44,3 @@
     align-items: center;
     height: 300px;
 }
-
-@media screen and (max-width: 1200px) {
-    .column {
-      width: 100%;
-    }
-  }
