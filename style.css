@@ -1,0 +1,52 @@
+.column {
+    float: left;
+    width: 33.33%;
+ 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    height: 50%;
+  }
+
+.border{
+    border:3px; 
+    border-style:solid; 
+    border-color:#f6f3f3; 
+    padding: 1em;"
+}
+
+.black-column{
+    background-color: black;
+}
+
+.image{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 230px;
+}
+
+.text{
+    color: #f6f3f3;
+    text-align: left;
+}
+
+.red-column{
+    background-color: red;
+}
+
+.image2{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 300px;
+}
+
+@media screen and (max-width: 1200px) {
+    .column {
+      width: 100%;
+    }
+  }
