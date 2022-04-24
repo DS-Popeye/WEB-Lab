@@ -1,46 +1,45 @@
-.column {
-    float: left;
-    width: 33.33%;
- 
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    height: 50%;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
-.border{
-    border:3px; 
-    border-style:solid; 
-    border-color:#f6f3f3; 
-    padding: 1em;"
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
 }
 
-.black-column{
-    background-color: black;
-}
-
-.image{
-    display: flex; 
-    justify-content: center; 
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 230px;
 }
 
-.text{
-    color: #f6f3f3;
-    text-align: left;
+.conteinar {
+    display: flex;
+    margin: 0 15px;
 }
 
-.red-column{
+.column {
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    color: whitesmoke;
+    padding: 50px 25px;
+}
+
+.red {
     background-color: red;
 }
 
-.image2{
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-    height: 300px;
+.column h1 {
+    margin-bottom: 7px;
+}
+
+.column img {
+    width: 65px;
+    height: 65px;
+}
+
+.details {
+    margin-left: 15px;
 }
